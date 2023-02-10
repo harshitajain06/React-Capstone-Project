@@ -77,7 +77,7 @@ REQUIRED SECTIONS:
 
 > Link to the deployed project 👇
 
-- 👉 Live Demo of Website :- [@Live_Demo_Render]()
+- 👉 Live Demo of Website :- [@Live_Demo_Render](https://coin-statistics.onrender.com)
 
 - 👉 Loom Video about this Project :- [@Loom_Video_Link]()
 
