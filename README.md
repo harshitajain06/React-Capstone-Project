@@ -79,7 +79,7 @@ REQUIRED SECTIONS:
 
 - 👉 Live Demo of Website :- [@Live_Demo_Render](https://coin-statistics.onrender.com)
 
-- 👉 Loom Video about this Project :- [@Loom_Video_Link]()
+- 👉 Loom Video about this Project :- [@Loom_Video_Link](https://drive.google.com/file/d/1Xz6Q_GQCQ2lteLjA4Vgfrm_DDV31nW54/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
