@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
-  <div data-testid="Navbar-1" className="flex py-4 px-4 sm:px-8 justify-between items-center">
+    <header>
+  <nav data-testid="Navbar-1" className="flex py-4 px-4 sm:px-8 justify-between items-center">
     <NavLink
       to="/"
       className={({ isActive }) => (isActive ? 'invisible' : 'visible')}
@@ -16,7 +17,8 @@ const Navbar = () => (
       <i className="fa-solid fa-microphone" />
       <i className="fa-solid fa-gear" />
     </div>
-  </div>
+  </nav>
+  </header>
 );
 
 export default Navbar;

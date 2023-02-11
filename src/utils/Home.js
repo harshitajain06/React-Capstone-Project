@@ -19,11 +19,11 @@ const Home = () => {
         </form>
       </div>
       <div>
-        <ul className="grid grid-cols-2 [&>*:nth-child(4n+2)]:bg-[#d1447a] [&>*:nth-child(4n-1)]:bg-[#d1447a]">
+        <div className="grid grid-cols-2 [&>*:nth-child(4n+2)]:bg-[#d1447a] [&>*:nth-child(4n-1)]:bg-[#d1447a]">
           {allCoins?.filter((coin) => (coin.name.toLowerCase().includes(query)))
             .map((coinf) => (
-              <Link to="/coin" onClick={() => { dispatch(addCoin(coinf)); }} key={coinf.id}>
-                <li className=" flex flex-col text-right justify-center py-2 px-4 m-2">
+              <Link to={"/coin/"+coinf.id} onClick={() => { dispatch(addCoin(coinf)); }} key={coinf.id}>
+                <div className=" flex flex-col text-right justify-center py-2 px-4 m-2">
                 <i className="fa-solid fa-circle-arrow-right ml-auto" />
                   <img className="w-20 h-20 ml-auto mr-auto" src={coinf.icon} alt={coinf.id} />
                   <h2 className="md:text-xl text-lg font-semibold">{coinf.name}</h2>
@@ -32,10 +32,10 @@ const Home = () => {
                     {' '}
                     <i className={coinf.priceChange1d < 0 ? 'fa-solid fa-arrow-trend-down' : 'fa-solid fa-arrow-trend-up'} />
                   </span>
-                </li>
+                </div>
               </Link>
             ))}
-        </ul>
+        </div>
         {' '}
         {!allCoins && isLoading === false ? (
           <div className="text-center text-2xl flex items-center justify-center h-[40vh] ">
