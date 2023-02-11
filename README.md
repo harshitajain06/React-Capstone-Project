@@ -37,7 +37,6 @@ REQUIRED SECTIONS:
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -63,11 +62,11 @@ REQUIRED SECTIONS:
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- Actions and state management using React Redux
 
-- Es6
-- Reliable
-- Modern
+- API integration using the [https://api.coinstats.app/public/v1/coins]
+
+- Homepage listing all Crypto currencies and a details page displaying more Crypto info.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,25 +86,46 @@ REQUIRED SECTIONS:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- Webpack Setup
+- Visual Studio Code
+- React Setup
 
-- Internet
-- Code Editor or IDE
-- Browser
 
 ### Setup
 
-Clone this repository to your desired folder
+Clone this repository to your desired folder:
+Example command:
+
+```sh
+ cd ReactCapstoneProject
+ git clone https://github.com/harshitajain06/ReactCapstoneProject.git
+```
+ 
+ 
+
 
 ### Install
 
-Nothing required to install.
+Install this project with:
+```sh
+cd ReactCapstoneProject
+npm install
+npm run build
+npm start
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Usage
+
+To run the project, execute the following command:
+npm start
+
 
 <!-- AUTHORS -->
 
@@ -122,8 +142,6 @@ Nothing required to install.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - Use Tailwind
 - Use OOPS
