@@ -102,8 +102,8 @@ Clone this repository to your desired folder:
 Example command:
 
 ```sh
- cd ReactCapstoneProject
- git clone https://github.com/harshitajain06/ReactCapstoneProject.git
+ cd React-Capstone-Project
+ git clone https://github.com/harshitajain06/React-Capstone-Project.git
 ```
  
  
@@ -113,7 +113,7 @@ Example command:
 
 Install this project with:
 ```sh
-cd ReactCapstoneProject
+cd React-Capstone-Project
 npm install
 npm run build
 npm start
