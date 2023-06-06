@@ -41,7 +41,7 @@ REQUIRED SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# CoinStatistics  <a name="about-project"></a>
+# Coin Statistics  <a name="about-project"></a>
 
 > It is a web app which show top crypto coins stats live. 
 
